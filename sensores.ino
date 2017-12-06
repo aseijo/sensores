@@ -11,7 +11,6 @@ float dhtTemp;
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   dht.begin();
 }
